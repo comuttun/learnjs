@@ -1,0 +1,25 @@
+{
+  "name": "learnjs",
+  "version": "1.0.0",
+  "description": "learnjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/comuttun/learnjs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comuttun/learnjs/issues"
+  },
+  "homepage": "https://github.com/comuttun/learnjs#readme",
+  "devDependencies": {
+    "connect": "^3.6.2",
+    "livereload": "^0.6.2",
+    "serve-static": "^1.12.3"
+  }
+}
