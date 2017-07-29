@@ -19,5 +19,8 @@ learnjs.showView = function(hash) {
 }
 
 learnjs.appOnReady = function() {
+  $(window).on('hashchange', function() {
+    learnjs.showView(window.location.hash);
+  });
   learnjs.showView(window.location.hash);
 }
