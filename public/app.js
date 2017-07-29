@@ -2,9 +2,9 @@
 
 var learnjs = {};
 
-learnjs.problemView = function() {
-  var problemView = $('<div class="problem-view">').text('Coming soon!');
-  $('.view-container').empty().append(problemView);
+learnjs.problemView = function(problemNumber) {
+  var title = 'Problem #' + problemNumber + ' Coming soon!';
+  return $('<div class="problem-view">').text(title);
 }
 
 learnjs.showView = function(hash) {
